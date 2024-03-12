@@ -63,7 +63,9 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.spacer}></div>
+      <div className={styles.spacer}>
+        <h1>Header</h1>
+      </div>
       <div className={styles.gallery} ref={gallery}>
         <div className={styles.galleryWrapper}>
           <Column images={[images[0], images[1], images[2]]} y={y} />
@@ -72,7 +74,9 @@ export default function Home() {
           <Column images={[images[9], images[10], images[11]]} y={y4} />
         </div>
       </div>
-      <div className={styles.spacer}></div>
+      <div className={styles.spacer}>
+        <h1>Footer</h1>
+      </div>
     </main>
   )
 }

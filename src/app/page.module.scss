@@ -50,5 +50,12 @@
 
 .spacer {
   height: 100vh;
-  background-color: lightcoral;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 15vw;
+    text-align: center;
+  }
 }
